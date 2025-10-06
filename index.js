@@ -1,7 +1,7 @@
 // alert("Hello World !");
 let computerChoice;
 // Logic to get computer choice
- let getComputerChoice = () => {
+/*  let getComputerChoice = () => {
     const randomselecter = Math.random();
     alert(randomselecter);
     if (randomselecter < 1/3) {
@@ -14,4 +14,12 @@ let computerChoice;
         alert(computerChoice="Paper");
     }
  }
-getComputerChoice();
+getComputerChoice(); */
+
+// logic to get human choice
+ function getHumanChoice(){
+    const humanChoice = prompt("Input you choice: ");
+    alert(humanChoice);
+ }
+
+ getHumanChoice();
